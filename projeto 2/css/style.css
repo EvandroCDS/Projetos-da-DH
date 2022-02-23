@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+
+* {
+  font-family: "Roboto", cursive;
+}
+
+body {
+  background-color: #131313;
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  color: steelblue;
+}
+p {
+  color: #bdbdbd;
+}
+a {
+  color: yellow;
+}
+.media-picture {
+  height: 400px;
+  background-image: url(../img/Screenshot-2022-02-16-133424.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.review-score {
+  color: black;
+  background-color: #e6bd09;
+}
