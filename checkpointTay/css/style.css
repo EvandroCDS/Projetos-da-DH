@@ -44,7 +44,8 @@ header {
     margin-top: 20px;
     border-radius: 50%;
     flex-direction: column;
-    gap: 10px;    
+    gap: 10px;  
+    min-width: auto;  
 }
 .card_logo1 img,a {
     border-radius:50%;
@@ -208,12 +209,14 @@ footer {
 
 .logo_linkedin a img {
     border-radius:50%;
-    width: 90px;
-    height: 90px;
+    align-items: center;
+    width: 70px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     gap: 10px;  
 }
+
 
 
 .card_footerlist {
